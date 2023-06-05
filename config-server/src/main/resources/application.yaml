@@ -9,4 +9,4 @@ spring:
               uri: https://github.com/braBarla/microservices-project1
               search-path: config-data
   application:
-    name: config-service
+    name: config-server
