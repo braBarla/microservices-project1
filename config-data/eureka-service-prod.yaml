@@ -1,5 +1,5 @@
 server:
-  port: 8761
+  port: ${PORT:8761}
 
 eureka:
   client:
@@ -7,8 +7,3 @@ eureka:
     fetchRegistry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0
-  
-logging:
-  level:
-    com.netflix: 'WARN'
-    org.springframework.cloud: 'WARN'
