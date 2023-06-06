@@ -3,4 +3,4 @@ spring:
     name: eureka-service
   cloud:
     config:
-      uri: ${CONFIG_SERVER_URL:http://localhost:8081}
+      uri: ${CONFIG_SERVER_URL:http://127.0.0.1:8081}
