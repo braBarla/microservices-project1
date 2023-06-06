@@ -8,8 +8,7 @@ spring:
           default-label: config-server
           uri: https://github.com/braBarla/microservices-project1
           search-path: config-data
-          clone:
-            on:
-              start: true
   application:
     name: config-service
+  profiles:
+    active: dev,prod
