@@ -6,4 +6,4 @@ spring:
       enabled: true
       uri: http://localhost:8081
       fail-fast: true
-      discovery.enabled: true
+      discovery-enabled: true
